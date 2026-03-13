@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Staff Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<script src="dashboard.js"></script>
+</head>
+
+<body>
+
+<h1>Staff Login</h1>
+
+<input id="username" placeholder="Username">
+<input id="password" type="password" placeholder="Password">
+
+<button onclick="login()">Login</button>
+
+<div id="panel" style="display:none">
+
+<h2>Staff Dashboard</h2>
+
+<h3>Issue Infraction</h3>
+
+<input id="staffName" placeholder="Staff Member">
+<input id="reason" placeholder="Reason">
+
+<button onclick="addInfraction()">Add Infraction</button>
+
+<ul id="infractions"></ul>
+
+</div>
+
+</body>
+</html>
